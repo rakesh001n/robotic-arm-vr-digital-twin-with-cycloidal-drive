@@ -1,0 +1,34 @@
+[0.770s] Invoking command in '/home/rocky/ros_robotic_arm_ws/src/robotic_arm': PYTHONPATH=/home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robotic_arm build --build-base /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/build install --record /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/install.log --single-version-externally-managed install_data
+[0.978s] running egg_info
+[0.979s] creating ../build/robotic_arm/robotic_arm.egg-info
+[0.979s] writing ../build/robotic_arm/robotic_arm.egg-info/PKG-INFO
+[0.979s] writing dependency_links to ../build/robotic_arm/robotic_arm.egg-info/dependency_links.txt
+[0.979s] writing entry points to ../build/robotic_arm/robotic_arm.egg-info/entry_points.txt
+[0.980s] writing requirements to ../build/robotic_arm/robotic_arm.egg-info/requires.txt
+[0.980s] writing top-level names to ../build/robotic_arm/robotic_arm.egg-info/top_level.txt
+[0.980s] writing manifest file '../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[0.981s] reading manifest file '../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[0.981s] adding license file 'LICENSE'
+[0.983s] writing manifest file '../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[0.983s] running build
+[0.983s] running build_py
+[0.983s] creating /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/build
+[0.984s] creating /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/build/lib
+[0.984s] creating /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/build/lib/robotic_arm
+[0.984s] copying robotic_arm/__init__.py -> /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/build/lib/robotic_arm
+[0.984s] running install
+[0.984s] running install_lib
+[0.984s] creating /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm
+[0.984s] copying /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/build/lib/robotic_arm/__init__.py -> /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm
+[0.985s] byte-compiling /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm/__init__.py to __init__.cpython-310.pyc
+[0.985s] running install_data
+[0.985s] creating /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/share/ament_index
+[0.985s] creating /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/share/ament_index/resource_index
+[0.985s] creating /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/share/ament_index/resource_index/packages
+[0.986s] copying resource/robotic_arm -> /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/share/ament_index/resource_index/packages
+[0.986s] copying package.xml -> /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/share/robotic_arm
+[0.986s] running install_egg_info
+[0.988s] Copying ../build/robotic_arm/robotic_arm.egg-info to /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info
+[0.988s] running install_scripts
+[1.007s] writing list of installed files to '/home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/install.log'
+[1.042s] Invoked command in '/home/rocky/ros_robotic_arm_ws/src/robotic_arm' returned '0': PYTHONPATH=/home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robotic_arm build --build-base /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/build install --record /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/install.log --single-version-externally-managed install_data

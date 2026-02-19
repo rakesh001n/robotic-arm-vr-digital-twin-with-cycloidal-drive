@@ -1,0 +1,32 @@
+running egg_info
+creating ../build/robotic_arm/robotic_arm.egg-info
+writing ../build/robotic_arm/robotic_arm.egg-info/PKG-INFO
+writing dependency_links to ../build/robotic_arm/robotic_arm.egg-info/dependency_links.txt
+writing entry points to ../build/robotic_arm/robotic_arm.egg-info/entry_points.txt
+writing requirements to ../build/robotic_arm/robotic_arm.egg-info/requires.txt
+writing top-level names to ../build/robotic_arm/robotic_arm.egg-info/top_level.txt
+writing manifest file '../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+reading manifest file '../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/build
+creating /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/build/lib
+creating /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/build/lib/robotic_arm
+copying robotic_arm/__init__.py -> /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/build/lib/robotic_arm
+running install
+running install_lib
+creating /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm
+copying /home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/build/lib/robotic_arm/__init__.py -> /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm
+byte-compiling /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/share/ament_index
+creating /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/share/ament_index/resource_index
+creating /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/share/ament_index/resource_index/packages
+copying resource/robotic_arm -> /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/share/robotic_arm
+running install_egg_info
+Copying ../build/robotic_arm/robotic_arm.egg-info to /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rocky/ros_robotic_arm_ws/src/build/robotic_arm/install.log'

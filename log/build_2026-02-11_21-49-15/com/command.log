@@ -1,0 +1,4 @@
+Invoking command in '/home/rocky/ros_robotic_arm_ws/src/build/com': /usr/bin/cmake /home/rocky/ros_robotic_arm_ws/src/unity/DigitalTwinRobot/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f/Editor/COMIntegration/COMIntegration~ -DCMAKE_INSTALL_PREFIX=/home/rocky/ros_robotic_arm_ws/src/install/com
+Invoked command in '/home/rocky/ros_robotic_arm_ws/src/build/com' returned '0': /usr/bin/cmake /home/rocky/ros_robotic_arm_ws/src/unity/DigitalTwinRobot/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f/Editor/COMIntegration/COMIntegration~ -DCMAKE_INSTALL_PREFIX=/home/rocky/ros_robotic_arm_ws/src/install/com
+Invoking command in '/home/rocky/ros_robotic_arm_ws/src/build/com': /usr/bin/cmake --build /home/rocky/ros_robotic_arm_ws/src/build/com -- -j16 -l16
+Invoked command in '/home/rocky/ros_robotic_arm_ws/src/build/com' returned '2': /usr/bin/cmake --build /home/rocky/ros_robotic_arm_ws/src/build/com -- -j16 -l16
