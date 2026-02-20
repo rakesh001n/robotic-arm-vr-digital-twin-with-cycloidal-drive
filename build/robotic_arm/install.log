@@ -1,4 +1,6 @@
+/home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm/joystick_teleop_node.py
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm/__init__.py
+/home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm/__pycache__/joystick_teleop_node.cpython-310.pyc
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm/__pycache__/__init__.cpython-310.pyc
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/share/ament_index/resource_index/packages/robotic_arm
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/share/robotic_arm/package.xml
@@ -9,3 +11,4 @@
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info/requires.txt
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info/top_level.txt
+/home/rocky/ros_robotic_arm_ws/src/install/robotic_arm/lib/robotic_arm/robot_controller_node

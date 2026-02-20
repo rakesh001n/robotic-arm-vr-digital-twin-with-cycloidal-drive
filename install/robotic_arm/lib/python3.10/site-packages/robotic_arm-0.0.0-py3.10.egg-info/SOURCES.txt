@@ -11,6 +11,7 @@ setup.py
 ../build/robotic_arm/robotic_arm.egg-info/zip-safe
 resource/robotic_arm
 robotic_arm/__init__.py
+robotic_arm/joystick_teleop_node.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

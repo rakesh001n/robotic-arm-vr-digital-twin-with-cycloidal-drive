@@ -30,4 +30,5 @@ test/test_pep257.py
 urdf/materials.xacro
 urdf/robotic.gazebo
 urdf/robotic.trans
+urdf/robotic.urdf
 urdf/robotic.xacro

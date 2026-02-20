@@ -8,6 +8,7 @@
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_description/share/robotic_description/urdf/robotic.trans
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_description/share/robotic_description/urdf/robotic.xacro
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_description/share/robotic_description/urdf/materials.xacro
+/home/rocky/ros_robotic_arm_ws/src/install/robotic_description/share/robotic_description/urdf/robotic.urdf
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_description/share/robotic_description/urdf/robotic.gazebo
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_description/share/robotic_description/meshes/WRIST_ARM_v1_1.stl
 /home/rocky/ros_robotic_arm_ws/src/install/robotic_description/share/robotic_description/meshes/LOWER_ARM_1.stl
