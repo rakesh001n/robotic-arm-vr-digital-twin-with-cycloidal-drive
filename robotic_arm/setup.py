@@ -13,13 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='rocky',
+    maintainer='Rakesh S D',
     maintainer_email='2005.rakesh.sd@gmail.com',
     description='TODO: Package description',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "robot_controller_node = robotic_arm.joystick_teleop_node:main",
         ],
     },
 )
