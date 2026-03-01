@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "robot_controller_node = robotic_arm.joystick_teleop_node:main",
+            "robot_controller_node = robotic_arm.robot_controler:main",
+            "pendant_node = robotic_arm.pendant:main",
+            "kinematics_node = robotic_arm.kinematics:main"
         ],
     },
 )
