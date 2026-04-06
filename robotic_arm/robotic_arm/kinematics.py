@@ -65,7 +65,7 @@ class Kinematics:
         D = (wc_r**2 + wc_z**2 - self.a2**2 - self.a3**2) / (2 * self.a2 * self.a3)
 
         if abs(D) > 1:
-            print("⚠️ Target out of reach")
+            print(" Target out of reach")
             return current_q
 
         t3_1 = math.acos(D)
@@ -103,4 +103,3 @@ if __name__ == "__main__":
     q_sol = kin.inverse_kinematics(pos, q)
     print("IK:", np.degrees(q_sol))
 
-    

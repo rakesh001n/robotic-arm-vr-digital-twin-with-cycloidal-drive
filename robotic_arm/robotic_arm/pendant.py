@@ -87,7 +87,7 @@ class Pendant(Node):
         if estop_pressed:
             self.estop_state = True
             self.motor_state = False
-            self.get_logger().warn("ESTOP ENABLED AND MOTOR DISABLED")
+            self.get_logger().error("ESTOP ENABLED AND MOTOR DISABLED")
 
         # If motor button pressed AND estop currently active → clear estop
         elif motor_pressed and self.estop_state:
