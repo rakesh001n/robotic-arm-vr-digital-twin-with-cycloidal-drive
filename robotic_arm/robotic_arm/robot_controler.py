@@ -5,6 +5,9 @@ from rclpy.node import Node
 from sensor_msgs.msg import Joy, JointState
 from std_msgs.msg import UInt8, Bool
 import math
+import time
+import numpy as np
+
 
 class Robot_controller(Node):
 
@@ -22,7 +25,7 @@ class Robot_controller(Node):
         self.joint_names = ["joint1","joint2","joint3","joint4","joint5"]
 
         self.joint_limits = [
-            (-math.pi/2, math.pi/2),
+            (-2*math.pi, 2*math.pi),
             (-math.pi/2, math.pi/2),
             (-math.pi/2, math.pi/2),
             (-math.pi/2, math.pi/2),
@@ -123,8 +126,67 @@ class Robot_controller(Node):
         self.joint_pub.publish(joint_msg)
 
     def linear_mode(self):
-        pass
 
+        # =========================
+        # Lazy import (avoid circular issues)
+        # =========================
+        from robotic_arm.kinematics import Kinematics
+        # Create kinematics object once
+        if not hasattr(self, "kin"):
+            self.kin = Kinematics()
+
+        # =========================
+        # Step size (mm)
+        # =========================
+        step = 3.0
+
+        dx = self.key_mapping[0] * step
+        dy = self.key_mapping[1] * step
+        dz = self.key_mapping[3] * step
+
+        # =========================
+        # Current joint state
+        # =========================
+        q_current = np.array(self.current_positions)
+
+        # =========================
+        # Forward Kinematics → current EE position
+        # =========================
+        current_pos, _ = self.kin.forward_kinematics(q_current)
+
+        # =========================
+        # Target position (linear move)
+        # =========================
+        target_pos = current_pos + np.array([dx, dy, dz])
+
+        # =========================
+        # Inverse Kinematics
+        # =========================
+        q_new = self.kin.inverse_kinematics(target_pos, q_current)
+
+        # =========================
+        # Wrist roll control (θ5)
+        # =========================
+        lt = self.joy_msg.axes[4]
+        rt = self.joy_msg.axes[5]
+        q_new[4] += (rt - lt) * self.joint_speed
+
+        # =========================
+        # Apply joint limits
+        # =========================
+        for i in range(len(q_new)):
+            min_l, max_l = self.joint_limits[i]
+            q_new[i] = max(min(q_new[i], max_l), min_l)
+
+        self.current_positions = q_new.tolist()
+
+        # =========================
+        # Publish   
+        # =========================
+        joint_msg = JointState()
+        joint_msg.name = self.joint_names
+        joint_msg.position = self.current_positions
+        self.joint_pub.publish(joint_msg)
 
 
 def main(args=None):

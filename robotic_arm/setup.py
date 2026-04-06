@@ -10,6 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/robotic_arm/launch', ['launch/fireup.launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -22,7 +23,8 @@ setup(
         'console_scripts': [
             "robot_controller_node = robotic_arm.robot_controler:main",
             "pendant_node = robotic_arm.pendant:main",
-            "kinematics_node = robotic_arm.kinematics:main"
+            "kinematics_node = robotic_arm.kinematics:main",
+            "serialComms_node = robotic_arm.serialConnection:main"
         ],
     },
 )
