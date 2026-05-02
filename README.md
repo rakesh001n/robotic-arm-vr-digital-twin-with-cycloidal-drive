@@ -156,7 +156,6 @@ The robotic arm follows Denavit-Hartenberg (DH) convention for kinematic modelin
 
 * 🤖 Robotics Research & Education
 * 🏭 Industrial Automation (Low-cost prototyping)
-* 🧠 AI-based Control Systems
 * 🎮 VR Teleoperation Systems
 * 🏥 Remote Manipulation
 
