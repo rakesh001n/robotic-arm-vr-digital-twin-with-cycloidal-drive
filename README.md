@@ -7,6 +7,10 @@ This project presents a **low-cost, high-precision robotic arm** integrated with
 The robotic arm is designed and simulated in **Fusion 360**, physically manufactured using **3D printing**, and controlled using **ROS 2** with communication to an **ESP32 microcontroller**.
 
 ---
+## Demo
+Check the demo using the given google Drive link
+[Demo](https://drive.google.com/file/d/1xmTVeGI-NlcjJkL4kJINrZ3ygCTdWQNV/view?usp=drive_link)
+---
 
 ## 🚀 Key Features
 
